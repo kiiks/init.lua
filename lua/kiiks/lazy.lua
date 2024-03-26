@@ -11,6 +11,9 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)  
 
+-- Configure <leader> globally
+vim.g.mapleader = " "
+
 local plugins = {
   {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
