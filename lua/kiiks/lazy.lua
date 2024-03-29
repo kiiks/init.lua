@@ -26,6 +26,14 @@ local plugins = {
     dependencies = { 'nvim-tree/nvim-web-devicons' }
   },
   {
+      "rbong/vim-flog",
+      lazy = true,
+      cmd = { "Flog", "Flogsplit", "Floggit" },
+      dependencies = {
+          "tpope/vim-fugitive",
+      },
+  },
+  {
     'numToStr/Comment.nvim',
     opts = {
         -- add any options here
