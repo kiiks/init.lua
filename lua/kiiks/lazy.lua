@@ -20,6 +20,18 @@ local plugins = {
 	  -- or                            , branch = '0.1.x',
 	  dependencies = { {'nvim-lua/plenary.nvim'} }
   },
+  { "lewis6991/gitsigns.nvim" },
+  {
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+  },
+  {
+    'numToStr/Comment.nvim',
+    opts = {
+        -- add any options here
+    },
+    lazy = false,
+  },
   {
 	  'projekt0n/github-nvim-theme',
 	  config = function()
