@@ -21,6 +21,7 @@ local plugins = {
 	  dependencies = { {'nvim-lua/plenary.nvim'} }
   },
   { "lewis6991/gitsigns.nvim" },
+  { "sindrets/diffview.nvim" },
   {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' }
